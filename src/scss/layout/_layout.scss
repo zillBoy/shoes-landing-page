@@ -1,0 +1,26 @@
+.navigation-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.308);
+    width: 80%;
+    margin-left: auto;
+
+    &-section {
+        display: flex;
+        align-items: center;
+        padding: 2rem;
+    }
+}
+
+.navigation-item {
+    
+    list-style: none;
+
+    &--icon {
+        display: flex;
+        align-items: center;
+        color: $primary-color;
+    }
+}

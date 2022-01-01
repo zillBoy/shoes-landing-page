@@ -1,10 +1,11 @@
 import React from 'react'
+import Navigation from './layout/Navigation'
 
 const App = () => {
-  return (
-    <div>
-      Shoes Landing Page
-    </div>
+  return(
+    <>
+      <Navigation />
+    </>
   )
 }
 
