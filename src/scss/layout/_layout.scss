@@ -1,16 +1,18 @@
+// NAVIGATION
+
 .navigation-container {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(255, 0, 0, 0.308);
-    width: 80%;
+    // background-color: rgba(255, 0, 0, 0.308);
+    width: 85%;
     margin-left: auto;
 
     &-section {
         display: flex;
         align-items: center;
-        padding: 2rem;
+        padding: 4rem 2rem;
     }
 }
 
@@ -23,4 +25,17 @@
         align-items: center;
         color: $primary-color;
     }
+}
+
+// MAIN
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    &-content {
+        width: 50%;
+    }
+
 }

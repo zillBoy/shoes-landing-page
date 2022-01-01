@@ -1,0 +1,44 @@
+.text-side-container {
+    width: 100%;
+    height: 85vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &-content {
+
+        &--border {
+            position: absolute;
+            background-color: transparent;
+            width: 70rem;
+            height: 63rem;
+            border: 0.7rem solid $primary-color;
+            left: 70%;
+            top: 5%;
+        }
+
+        margin-left: 12.5rem;
+
+        &-mainheading {
+            margin-top: 2rem;
+            line-height: 10rem;
+            background-color: #fff;
+            position: relative;
+        }
+
+        &-subheading {
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+            line-height: 3rem;
+            position: relative;
+            background-color: #fff;
+        }
+
+        &-buttoncontainer {
+            margin-top: 13rem;
+        }
+    }
+}

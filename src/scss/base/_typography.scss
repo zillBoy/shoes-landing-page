@@ -12,3 +12,29 @@ body {
     font-size: 1.6rem;
     margin-right: 10rem;
 }
+
+// Text Side
+
+.text {
+
+    text-transform: uppercase;
+
+    &-mainheader {
+        font-weight: bolder;
+        font-size: 10rem;
+    }
+
+    &-subheader {
+        font-size: 7rem;
+        font-weight: lighter;
+    }
+}
+
+.text-subheading-header {
+    font-size: 2.6rem;
+    color: $primary-color;
+}
+
+.text-subheading-subheader {
+    font-size: 1.7rem;
+}
