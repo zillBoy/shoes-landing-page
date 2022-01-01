@@ -5,6 +5,7 @@ const TextSide = () => {
     return (
         <div className='text-side-container'>
             <div className='text-side-container-content'>
+                <div className='text-side-container-content--line' />
                 <div className='text-side-container-content--border'></div>
                 <div className='text-side-container-content-mainheading'>
                     <h1 className='text text-mainheader'>New</h1>

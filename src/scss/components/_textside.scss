@@ -10,6 +10,23 @@
 
     &-content {
 
+        &--line {
+            position: absolute;
+            top: 15%;
+            left: 0%;
+            width: 25rem;
+            margin-left: 3rem;
+            height: 0.4rem;
+            background-color: $line-color;
+            transform: rotate(135deg);
+
+            &--imageside {
+                left: 85%;
+                top: 70%;
+                width: 15rem;
+            }
+        }
+
         &--border {
             position: absolute;
             background-color: transparent;

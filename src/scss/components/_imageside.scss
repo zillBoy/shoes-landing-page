@@ -12,3 +12,14 @@
     background-position: top;
     object-fit: cover;
 }
+
+.image-subcontent {
+    display: inline-block;
+    position: absolute;
+    font-size: $subheading-size - 2rem;
+    font-weight: 500;
+    bottom: 12rem;
+    right: 3rem;
+    line-height: 5rem;
+    cursor: pointer;
+}

@@ -21,11 +21,11 @@ body {
 
     &-mainheader {
         font-weight: bolder;
-        font-size: 10rem;
+        font-size: $heading-size;
     }
 
     &-subheader {
-        font-size: 7rem;
+        font-size: $subheading-size;
         font-weight: lighter;
     }
 }
